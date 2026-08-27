@@ -1,0 +1,6 @@
+{
+  "name": "Cursed Cursors",
+  "description": "CURSED CURSORS - Custom cursor catalog, dual-pair live testing playground, multi-theme engine, and interactive constructor studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

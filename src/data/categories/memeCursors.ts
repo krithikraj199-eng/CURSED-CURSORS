@@ -1,0 +1,1254 @@
+import { CursorProject } from '../../types/cursor';
+
+export const MEME_CURSORS: CursorProject[] = [
+  {
+    "id": "meme-pepe-feelsgood",
+    "title": "Pepe The Frog & Smug Smirk",
+    "slug": "pepe-the-frog-feels-good-smug",
+    "category": "Memes",
+    "description": "The legendary Feels Good Man green frog with smug grin and classic coffee mug.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "pepe",
+      "meme",
+      "feelsgood",
+      "kek",
+      "classic"
+    ],
+    "createdAt": "2026-08-20T10:00:00.000Z",
+    "updatedAt": "2026-08-20T10:00:00.000Z",
+    "author": "KekLord",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "wiggle",
+    "downloadsCount": 94200,
+    "likesCount": 42100,
+    "layers": [
+      {
+        "id": "pe-head",
+        "name": "Pepe Face",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐸",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#22c55e",
+          "blur": 6
+        }
+      },
+      {
+        "id": "pe-sunglass",
+        "name": "Deal With It Shades",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🕶️",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "pe-ptr-mug",
+        "name": "Coffee Mug",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "☕",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#f59e0b",
+          "blur": 8
+        }
+      },
+      {
+        "id": "pe-ptr-ok",
+        "name": "OK Sign",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "👌",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "meme-doge-muchwow",
+    "title": "Doge Much Wow & Golden Coin",
+    "slug": "doge-much-wow-golden-coin",
+    "category": "Memes",
+    "description": "Original Doge Shiba Inu with comic sans quotes and sparkling golden crypto coin.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "doge",
+      "muchwow",
+      "crypto",
+      "shiba",
+      "meme"
+    ],
+    "createdAt": "2026-08-19T10:00:00.000Z",
+    "updatedAt": "2026-08-19T10:00:00.000Z",
+    "author": "MuchWowMaker",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "pulse",
+    "downloadsCount": 88100,
+    "likesCount": 38400,
+    "layers": [
+      {
+        "id": "dg-head",
+        "name": "Doge Face",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐕",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#eab308",
+          "blur": 6
+        }
+      },
+      {
+        "id": "dg-sparkle",
+        "name": "Much Wow Sparkle",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "✨",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "dg-ptr-coin",
+        "name": "Gold Coin",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🪙",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#f59e0b",
+          "blur": 8
+        }
+      },
+      {
+        "id": "dg-ptr-rocket",
+        "name": "To The Moon Rocket",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🚀",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "meme-cat-popcat",
+    "title": "Pop Cat O Mouth & Crunchy Biscuit",
+    "slug": "pop-cat-o-mouth-crunchy-biscuit",
+    "category": "Memes",
+    "description": "Viral clicking Pop Cat mouth popping wide open with fish biscuit snack pointer.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "popcat",
+      "cat",
+      "clicker",
+      "meme",
+      "viral"
+    ],
+    "createdAt": "2026-08-18T10:00:00.000Z",
+    "updatedAt": "2026-08-18T10:00:00.000Z",
+    "author": "PopCatClick",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "bounce",
+    "downloadsCount": 97300,
+    "likesCount": 46200,
+    "layers": [
+      {
+        "id": "pop-cat",
+        "name": "Cat Face",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐱",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#f472b6",
+          "blur": 6
+        }
+      },
+      {
+        "id": "pop-mouth",
+        "name": "Pop O Mouth",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "⭕",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "pop-ptr-fish",
+        "name": "Fish Biscuit",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐟",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#38bdf8",
+          "blur": 8
+        }
+      },
+      {
+        "id": "pop-ptr-paw",
+        "name": "Cat Paw",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐾",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "meme-nyan-cat",
+    "title": "Nyan Cat Pop-Tart & Rainbow Trail",
+    "slug": "nyan-cat-pop-tart-rainbow-trail",
+    "category": "Memes",
+    "description": "Retro 8-bit space cat with strawberry Pop-Tart body and infinite rainbow blast trail.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 4
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "nyancat",
+      "rainbow",
+      "retro",
+      "8bit",
+      "meme"
+    ],
+    "createdAt": "2026-08-17T10:00:00.000Z",
+    "updatedAt": "2026-08-17T10:00:00.000Z",
+    "author": "NyanSpace",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "rainbow",
+    "downloadsCount": 85400,
+    "likesCount": 37100,
+    "layers": [
+      {
+        "id": "ny-cat",
+        "name": "Nyan Body",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐱",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#ec4899",
+          "blur": 6
+        }
+      },
+      {
+        "id": "ny-tart",
+        "name": "Pop Tart Pastry",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🍰",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "ny-ptr-bow",
+        "name": "Rainbow Beam",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🌈",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#f43f5e",
+          "blur": 8
+        }
+      },
+      {
+        "id": "ny-ptr-star",
+        "name": "Star Trail",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "⭐",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "meme-fine-dog",
+    "title": "This Is Fine Dog & Fire Room",
+    "slug": "this-is-fine-dog-coffee-fire",
+    "category": "Memes",
+    "description": "Calm bowler-hat dog sitting in a burning room sipping coffee saying This is Fine.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "thisisfine",
+      "dog",
+      "fire",
+      "coffee",
+      "meme"
+    ],
+    "createdAt": "2026-08-16T10:00:00.000Z",
+    "updatedAt": "2026-08-16T10:00:00.000Z",
+    "author": "KCGreenFan",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "wiggle",
+    "downloadsCount": 79800,
+    "likesCount": 34500,
+    "layers": [
+      {
+        "id": "fn-dog",
+        "name": "Fine Dog",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐶",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#f97316",
+          "blur": 6
+        }
+      },
+      {
+        "id": "fn-hat",
+        "name": "Bowler Hat",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🎩",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "fn-ptr-fire",
+        "name": "Room Fire",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🔥",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#ef4444",
+          "blur": 8
+        }
+      },
+      {
+        "id": "fn-ptr-cup",
+        "name": "Coffee Cup",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "☕",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "meme-stonks-guy",
+    "title": "Stonks Guy & Green Trending Arrow",
+    "slug": "stonks-guy-green-trending-arrow",
+    "category": "Memes",
+    "description": "Mannequin Meme Man head staring forward with giant skyrocketing green Stonks line.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "stonks",
+      "mememan",
+      "stocks",
+      "arrow",
+      "meme"
+    ],
+    "createdAt": "2026-08-15T10:00:00.000Z",
+    "updatedAt": "2026-08-15T10:00:00.000Z",
+    "author": "WallStreetMemes",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "pulse",
+    "downloadsCount": 73600,
+    "likesCount": 31900,
+    "layers": [
+      {
+        "id": "st-head",
+        "name": "Meme Man",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🗿",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#22c55e",
+          "blur": 6
+        }
+      },
+      {
+        "id": "st-chart",
+        "name": "Chart Up",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "📈",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "st-ptr-arrow",
+        "name": "Green Arrow",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "💹",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#16a34a",
+          "blur": 8
+        }
+      },
+      {
+        "id": "st-ptr-cash",
+        "name": "Cash Money",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "💵",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "meme-gigachad-jaw",
+    "title": "GigaChad Jawline & Pure Alpha Glow",
+    "slug": "gigachad-jawline-pure-alpha-glow",
+    "category": "Memes",
+    "description": "Chiseled black-and-white GigaChad jawline profile with golden crown and flexing bicep.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "gigachad",
+      "chad",
+      "sigma",
+      "alpha",
+      "meme"
+    ],
+    "createdAt": "2026-08-14T10:00:00.000Z",
+    "updatedAt": "2026-08-14T10:00:00.000Z",
+    "author": "AverageEnjoyer",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "sparkle",
+    "downloadsCount": 86900,
+    "likesCount": 39400,
+    "layers": [
+      {
+        "id": "gc-moai",
+        "name": "Chiseled Face",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🗿",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#f59e0b",
+          "blur": 6
+        }
+      },
+      {
+        "id": "gc-crown",
+        "name": "King Crown",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "👑",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "gc-ptr-flex",
+        "name": "Flex Arm",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "💪",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#d97706",
+          "blur": 8
+        }
+      },
+      {
+        "id": "gc-ptr-fire",
+        "name": "Sigma Flame",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🔥",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "meme-cheems-bonk",
+    "title": "Cheems Doge & Horny Jail Bonk Bat",
+    "slug": "cheems-doge-bonk-bat-jail",
+    "category": "Memes",
+    "description": "Round squishy Cheems holding wooden baseball bat ready for tactical BONK strike.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "cheems",
+      "bonk",
+      "bat",
+      "doge",
+      "meme"
+    ],
+    "createdAt": "2026-08-13T10:00:00.000Z",
+    "updatedAt": "2026-08-13T10:00:00.000Z",
+    "author": "BonkPatrol",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "wiggle",
+    "downloadsCount": 78200,
+    "likesCount": 32600,
+    "layers": [
+      {
+        "id": "ch-dog",
+        "name": "Cheems Face",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐕",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#f59e0b",
+          "blur": 6
+        }
+      },
+      {
+        "id": "ch-bat",
+        "name": "Bonk Bat",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": -20,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🏏",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "ch-ptr-pow",
+        "name": "Bonk Star",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "💥",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#ef4444",
+          "blur": 8
+        }
+      },
+      {
+        "id": "ch-ptr-bars",
+        "name": "Jail Bars",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "⛓️",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "meme-grumpy-cat",
+    "title": "Grumpy Cat & Sarcastic No Bubble",
+    "slug": "grumpy-cat-tardar-sauce-no",
+    "category": "Memes",
+    "description": "Ever-frowning legendary Grumpy Cat Tardar Sauce with clear red NO speech bubble.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "grumpycat",
+      "cat",
+      "no",
+      "legend",
+      "meme"
+    ],
+    "createdAt": "2026-08-12T10:00:00.000Z",
+    "updatedAt": "2026-08-12T10:00:00.000Z",
+    "author": "GrumpyLegacy",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "wiggle",
+    "downloadsCount": 64100,
+    "likesCount": 26800,
+    "layers": [
+      {
+        "id": "gr-cat",
+        "name": "Grumpy Cat",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "😾",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#64748b",
+          "blur": 6
+        }
+      },
+      {
+        "id": "gr-cross",
+        "name": "Red X",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "❌",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "gr-ptr-rain",
+        "name": "Raincloud",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🌧️",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#475569",
+          "blur": 8
+        }
+      },
+      {
+        "id": "gr-ptr-paw",
+        "name": "Cat Paw",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐾",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "meme-skull-dead",
+    "title": "I am Dead Skull & Crying Laughing",
+    "slug": "skull-i-am-dead-crying-laughing",
+    "category": "Memes",
+    "description": "Hilarious Gen Z I am Dead skull bone with crying laughing tears emoji pointer.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "skull",
+      "dead",
+      "lol",
+      "genz",
+      "meme"
+    ],
+    "createdAt": "2026-08-11T10:00:00.000Z",
+    "updatedAt": "2026-08-11T10:00:00.000Z",
+    "author": "GenZHumor",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "sparkle",
+    "downloadsCount": 92700,
+    "likesCount": 41800,
+    "layers": [
+      {
+        "id": "sk-skull",
+        "name": "Dead Skull",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "💀",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#94a3b8",
+          "blur": 6
+        }
+      },
+      {
+        "id": "sk-tomb",
+        "name": "Tombstone",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🪦",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "sk-ptr-cry",
+        "name": "Crying Laughing",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "😭",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#38bdf8",
+          "blur": 8
+        }
+      },
+      {
+        "id": "sk-ptr-fire",
+        "name": "Lit Flame",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🔥",
+          "size": 13
+        }
+      }
+    ]
+  }
+];

@@ -1,0 +1,1254 @@
+import { CursorProject } from '../../types/cursor';
+
+export const CUTE_CURSORS: CursorProject[] = [
+  {
+    "id": "cute-sanrio-hellokitty",
+    "title": "Hello Kitty Red Bow & Sweet Milk",
+    "slug": "hello-kitty-red-bow-sweet-milk",
+    "category": "Cute",
+    "description": "Iconic kawaii Hello Kitty bright red ribbon bow with sweet cartoon milk bottle pointer.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "sanrio",
+      "hellokitty",
+      "cute",
+      "kawaii",
+      "pink"
+    ],
+    "createdAt": "2026-08-20T10:00:00.000Z",
+    "updatedAt": "2026-08-20T10:00:00.000Z",
+    "author": "KawaiiSanrio",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "bounce",
+    "downloadsCount": 96800,
+    "likesCount": 44200,
+    "layers": [
+      {
+        "id": "hk-bow",
+        "name": "Red Ribbon Bow",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🎀",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#f43f5e",
+          "blur": 6
+        }
+      },
+      {
+        "id": "hk-sparkle",
+        "name": "Pink Sparkle",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "💖",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "hk-ptr-milk",
+        "name": "Strawberry Milk",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🍼",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#ec4899",
+          "blur": 8
+        }
+      },
+      {
+        "id": "hk-ptr-star",
+        "name": "Pastel Star",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "⭐",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "cute-strawberry-bunny",
+    "title": "Strawberry Bunny & Sweet Mochi",
+    "slug": "strawberry-bunny-sweet-mochi",
+    "category": "Cute",
+    "description": "Fluffy white bunny head holding ripe red strawberry with pastel mochi treat.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "bunny",
+      "strawberry",
+      "kawaii",
+      "pastel",
+      "cute"
+    ],
+    "createdAt": "2026-08-19T10:00:00.000Z",
+    "updatedAt": "2026-08-19T10:00:00.000Z",
+    "author": "BunnyPastel",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "wiggle",
+    "downloadsCount": 71200,
+    "likesCount": 29800,
+    "layers": [
+      {
+        "id": "sb-bunny",
+        "name": "Bunny Face",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐰",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#f472b6",
+          "blur": 6
+        }
+      },
+      {
+        "id": "sb-berry",
+        "name": "Sweet Berry",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 15,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🍓",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "sb-ptr-dango",
+        "name": "Sweet Dango",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🍡",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#fbcfe8",
+          "blur": 8
+        }
+      },
+      {
+        "id": "sb-ptr-flower",
+        "name": "Cherry Blossom",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🌸",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "cute-boba-milktea",
+    "title": "Boba Milk Tea & Brown Sugar Pearls",
+    "slug": "boba-milk-tea-brown-sugar-pearls",
+    "category": "Cute",
+    "description": "Refreshing brown sugar iced bubble tea with fat straw and smiling boba tapioca pearls.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "boba",
+      "milktea",
+      "tapioca",
+      "drink",
+      "cute"
+    ],
+    "createdAt": "2026-08-18T10:00:00.000Z",
+    "updatedAt": "2026-08-18T10:00:00.000Z",
+    "author": "BobaAddict",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "sparkle",
+    "downloadsCount": 84300,
+    "likesCount": 36700,
+    "layers": [
+      {
+        "id": "bb-cup",
+        "name": "Boba Cup",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🧋",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#f59e0b",
+          "blur": 6
+        }
+      },
+      {
+        "id": "bb-heart",
+        "name": "Sweet Heart",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🧋",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "bb-ptr-cookie",
+        "name": "Pastel Cookie",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🍪",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#d97706",
+          "blur": 8
+        }
+      },
+      {
+        "id": "bb-ptr-spark",
+        "name": "Sweet Sugar",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "✨",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "cute-shiba-doge",
+    "title": "Fluffy Shiba Inu & Paw Print",
+    "slug": "fluffy-shiba-inu-paw-print",
+    "category": "Cute",
+    "description": "Smiling golden Shiba Inu puppy head with cute pink puppy paw footprint pointer.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "shiba",
+      "doge",
+      "puppy",
+      "kawaii",
+      "cute"
+    ],
+    "createdAt": "2026-08-17T10:00:00.000Z",
+    "updatedAt": "2026-08-17T10:00:00.000Z",
+    "author": "DogeLover",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "bounce",
+    "downloadsCount": 79400,
+    "likesCount": 33100,
+    "layers": [
+      {
+        "id": "sh-dog",
+        "name": "Shiba Head",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐕",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#f59e0b",
+          "blur": 6
+        }
+      },
+      {
+        "id": "sh-bone",
+        "name": "Mini Bone",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 15,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🦴",
+          "size": 13
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "sh-ptr-paw",
+        "name": "Pink Paw",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐾",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#f472b6",
+          "blur": 8
+        }
+      },
+      {
+        "id": "sh-ptr-heart",
+        "name": "Love Sparkle",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "💖",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "cute-pastel-cloud",
+    "title": "Pastel Dream Cloud & Golden Star",
+    "slug": "pastel-dream-cloud-golden-star",
+    "category": "Cute",
+    "description": "Fluffy dreamy white cloud with pastel rainbow raindrops and twinkling sleeping star.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "cloud",
+      "dream",
+      "pastel",
+      "star",
+      "aesthetic"
+    ],
+    "createdAt": "2026-08-16T10:00:00.000Z",
+    "updatedAt": "2026-08-16T10:00:00.000Z",
+    "author": "CloudyDreamer",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "float",
+    "downloadsCount": 65100,
+    "likesCount": 26400,
+    "layers": [
+      {
+        "id": "pc-cloud",
+        "name": "Dream Cloud",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "☁️",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#a78bfa",
+          "blur": 6
+        }
+      },
+      {
+        "id": "pc-drop",
+        "name": "Rainbow Droplet",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "💧",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "pc-ptr-star",
+        "name": "Sleeping Star",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "⭐",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#facc15",
+          "blur": 8
+        }
+      },
+      {
+        "id": "pc-ptr-moon",
+        "name": "Crescent Moon",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🌙",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "cute-froggy-lilypad",
+    "title": "Little Froggy & Raindrop Lilypad",
+    "slug": "little-froggy-raindrop-lilypad",
+    "category": "Cute",
+    "description": "Chubby smiling green froggy sitting on fresh raindrop lily pad flower.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "frog",
+      "green",
+      "cottagecore",
+      "cute",
+      "kawaii"
+    ],
+    "createdAt": "2026-08-15T10:00:00.000Z",
+    "updatedAt": "2026-08-15T10:00:00.000Z",
+    "author": "FroggyVibes",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "wiggle",
+    "downloadsCount": 58900,
+    "likesCount": 23900,
+    "layers": [
+      {
+        "id": "fg-frog",
+        "name": "Froggy Head",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐸",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#22c55e",
+          "blur": 6
+        }
+      },
+      {
+        "id": "fg-leaf",
+        "name": "Clover Sprout",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🍀",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "fg-ptr-lotus",
+        "name": "Water Lotus",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🪷",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#ec4899",
+          "blur": 8
+        }
+      },
+      {
+        "id": "fg-ptr-drop",
+        "name": "Dew Drop",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "💧",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "cute-penguin-iceberg",
+    "title": "Little Penguin & Winter Snowflake",
+    "slug": "little-penguin-winter-snowflake",
+    "category": "Cute",
+    "description": "Adorable waddling baby penguin wearing cozy scarf with glistening crystal snowflake.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "penguin",
+      "winter",
+      "snow",
+      "kawaii",
+      "cute"
+    ],
+    "createdAt": "2026-08-14T10:00:00.000Z",
+    "updatedAt": "2026-08-14T10:00:00.000Z",
+    "author": "PenguinPuff",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "wiggle",
+    "downloadsCount": 52400,
+    "likesCount": 21300,
+    "layers": [
+      {
+        "id": "pg-pen",
+        "name": "Baby Penguin",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐧",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#38bdf8",
+          "blur": 6
+        }
+      },
+      {
+        "id": "pg-fish",
+        "name": "Little Fish",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 15,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐟",
+          "size": 13
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "pg-ptr-snow",
+        "name": "Snowflake",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "❄️",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#0ea5e9",
+          "blur": 8
+        }
+      },
+      {
+        "id": "pg-ptr-ice",
+        "name": "Ice Cube",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🧊",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "cute-panda-bamboo",
+    "title": "Chubby Panda & Green Bamboo",
+    "slug": "chubby-panda-green-bamboo",
+    "category": "Cute",
+    "description": "Sleepy panda munching on sweet bamboo shoots with red lucky envelope pointer.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "panda",
+      "bamboo",
+      "kawaii",
+      "bear",
+      "cute"
+    ],
+    "createdAt": "2026-08-13T10:00:00.000Z",
+    "updatedAt": "2026-08-13T10:00:00.000Z",
+    "author": "PandaPaws",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "bounce",
+    "downloadsCount": 63800,
+    "likesCount": 25900,
+    "layers": [
+      {
+        "id": "pd-head",
+        "name": "Panda Face",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐼",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#10b981",
+          "blur": 6
+        }
+      },
+      {
+        "id": "pd-bamboo",
+        "name": "Bamboo Shoot",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🎍",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "pd-ptr-paw",
+        "name": "Panda Paw",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐾",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#059669",
+          "blur": 8
+        }
+      },
+      {
+        "id": "pd-ptr-tea",
+        "name": "Green Tea Cup",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🍵",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "cute-unicorn-rainbow",
+    "title": "Magic Unicorn & Rainbow Spark",
+    "slug": "magic-unicorn-rainbow-spark",
+    "category": "Cute",
+    "description": "Enchanted pastel unicorn with spiraling golden horn and vibrant magical rainbow arch.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "unicorn",
+      "rainbow",
+      "magic",
+      "glitter",
+      "cute"
+    ],
+    "createdAt": "2026-08-12T10:00:00.000Z",
+    "updatedAt": "2026-08-12T10:00:00.000Z",
+    "author": "RainbowUnicorn",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "rainbow",
+    "downloadsCount": 91400,
+    "likesCount": 39800,
+    "layers": [
+      {
+        "id": "uc-head",
+        "name": "Unicorn Face",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🦄",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#ec4899",
+          "blur": 6
+        }
+      },
+      {
+        "id": "uc-star",
+        "name": "Magic Glitter",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "✨",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "uc-ptr-bow",
+        "name": "Rainbow Arch",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🌈",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#a855f7",
+          "blur": 8
+        }
+      },
+      {
+        "id": "uc-ptr-spark",
+        "name": "Stardust",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "💖",
+          "size": 13
+        }
+      }
+    ]
+  },
+  {
+    "id": "cute-honey-bee",
+    "title": "Honey Bee & Golden Honeycomb",
+    "slug": "honey-bee-golden-honeycomb",
+    "category": "Cute",
+    "description": "Chubby fuzzy bumblebee buzzing around dripping sweet honey pot with yellow sunflower.",
+    "cursorType": "normal",
+    "hotspot": {
+      "x": 4,
+      "y": 2
+    },
+    "pointerHotspot": {
+      "x": 12,
+      "y": 4
+    },
+    "tags": [
+      "bee",
+      "honey",
+      "sunflower",
+      "spring",
+      "cute"
+    ],
+    "createdAt": "2026-08-11T10:00:00.000Z",
+    "updatedAt": "2026-08-11T10:00:00.000Z",
+    "author": "HoneyBuzz",
+    "isFeatured": true,
+    "isAnimated": true,
+    "animationType": "wiggle",
+    "downloadsCount": 57600,
+    "likesCount": 22800,
+    "layers": [
+      {
+        "id": "be-bee",
+        "name": "Bumblebee",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🐝",
+          "size": 26
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#eab308",
+          "blur": 6
+        }
+      },
+      {
+        "id": "be-flower",
+        "name": "Sunflower",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🌻",
+          "size": 14
+        }
+      }
+    ],
+    "pointerLayers": [
+      {
+        "id": "be-ptr-pot",
+        "name": "Honey Pot",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 2,
+        "y": 2,
+        "width": 26,
+        "height": 26,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "🍯",
+          "size": 24
+        },
+        "glow": {
+          "enabled": true,
+          "color": "#f59e0b",
+          "blur": 8
+        }
+      },
+      {
+        "id": "be-ptr-drop",
+        "name": "Honey Drop",
+        "type": "emoji",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "x": 14,
+        "y": 12,
+        "width": 14,
+        "height": 14,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "emojiData": {
+          "char": "✨",
+          "size": 13
+        }
+      }
+    ]
+  }
+];

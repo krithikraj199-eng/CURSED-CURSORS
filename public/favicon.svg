@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="cc-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <linearGradient id="cc-grad-2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E0E7FF" />
+    </linearGradient>
+    <filter id="cc-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#8B5CF6" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Base 3D Shield Badge -->
+  <rect x="3" y="3" width="58" height="58" rx="16" fill="#090d16" stroke="url(#cc-grad-1)" stroke-width="2.5" />
+  
+  <!-- 3D Bevel Highlight & Shadow -->
+  <rect x="5" y="5" width="54" height="26" rx="13" fill="white" fill-opacity="0.06" />
+  <rect x="6" y="53" width="52" height="5" rx="2.5" fill="#06B6D4" fill-opacity="0.35" />
+
+  <!-- First 'C' (Left) -->
+  <path
+    d="M 31 15 L 18 15 C 12 15 7.5 19.5 7.5 25.5 L 7.5 38.5 C 7.5 44.5 12 49 18 49 L 31 49 L 31 41.5 L 18 41.5 C 16 41.5 14.5 40 14.5 38 L 14.5 26 C 14.5 24 16 22.5 18 22.5 L 31 22.5 Z"
+    fill="url(#cc-grad-1)"
+  />
+
+  <!-- Second 'C' (Right) -->
+  <path
+    d="M 56.5 15 L 43.5 15 C 37.5 15 33 19.5 33 25.5 L 33 38.5 C 33 44.5 37.5 49 43.5 49 L 56.5 49 L 56.5 41.5 L 43.5 41.5 C 41.5 41.5 40 40 40 38 L 40 26 C 40 24 41.5 22.5 43.5 22.5 L 56.5 22.5 Z"
+    fill="url(#cc-grad-2)"
+    filter="url(#cc-glow)"
+  />
+</svg>
